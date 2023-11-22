@@ -16,4 +16,10 @@
     <None Remove="Concrete\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
 </Project>
